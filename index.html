@@ -2,29 +2,60 @@
 <html>
     <head>
         <title>My portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./resources/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
     <header>
-        <h1>Darko Velickovic</h1>
+        <h1><span id="name">Darko</span> Velickovic</h1>
         <nav>
-            <a href="about-me">About Me</a>
+            <a href="#about-me">About Me</a>
             <a href="#projects">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <div id="about-me">
+    <div id="about">
         <h2>About Me</h2>
         <br>
-        <p>Hi I am Darko, bachelor of economic science with strong mathematical background and programming skills.<br> In search of cooperative work and dynamic and challenging environment in the IT industry. Motivated in developing new programming skills. Capable to work under pressure and perform tasks in a given time frame.</p>
+        <img src="resources/cv.png" alt="picture-of-me">
+        <p>Hi, I am Darko, bachelor of economic science with strong mathematical background and programming skills. In search of cooperative work and dynamic and challenging environment in the IT industry. Motivated in developing new programming skills. Capable to work under pressure and perform tasks in a given time frame.</p>
     </div>
     <br>
     <br>
     <div id="projects">
         <h2>Projects</h2>
+        <p>Here are some of the websites I have built!</p>
         <ul>
-            <li>Fotomatic <img src="./resources/Fotomatic.jpg"></li>
-            <li>Virtual Company's Site <img src="./resources/VC.jpg></li>
+            <li>Fotomatic Company website<br><br><img src="./resources/Fotomatic.jpg" alt="fotomatic website"></li>
+            <li>Virtual Company's website<br><br><img src="./resources/VC.jpg" alt="VC website"></li>
         </ul>
+    </div>
+    <div id="skills">
+        <h2>Skills</h2>
+        <div id="skills-ul">
+            <ul id="skills-words">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Git</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Java</li>
+                <li>MySQL</li>
+            </ul>
+            <ul id="imgs">
+                <li><img src="./resources/html.png"></li>
+                <li><img src="./resources/css.png"></li>
+                <li><img src="./resources/js.png"></li>
+                <li><img src="./resources/git.png"></li>
+                <li><img src="./resources/alg.png"></li>
+                <li><img src="./resources/java.png"></li>
+                <li><img src="./resources/sql.png"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contact">
+        <h2>Contact</h2>
+        <h5>Darko Velickovic<br>
+        darko.velickovic1@gmail.com<br></h5>
     </div>
 </html>
